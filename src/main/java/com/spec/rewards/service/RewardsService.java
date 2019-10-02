@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
-import org.springframework.util.ResourceUtils;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -25,7 +24,8 @@ public class RewardsService {
 	private ObjectMapper objectMapper;
 	
 	public List<UserTransDto> getAllUserTrans() throws JsonParseException, JsonMappingException, FileNotFoundException, IOException {
-		return objectMapper.readValue(ResourceUtils.getFile("classpath:transdata.json"), new TypeReference<List<UserTransDto>>() { });
+		return objectMapper.readValue(
+				RewardsService.class.getClassLoader().getResourceAsStream("transdata.json"), new TypeReference<List<UserTransDto>>() { });
 	}
 	
 	public List<RewardsDto> getRewardPoints() throws JsonParseException, JsonMappingException, FileNotFoundException, IOException {
