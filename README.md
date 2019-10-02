@@ -1,6 +1,6 @@
 # Rewards
 
-Intructions to run the code:
+Instructions to run the code:
 
 Clone the workspace and run following commands
 mvn clean install
