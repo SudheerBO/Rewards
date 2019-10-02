@@ -1,6 +1,7 @@
 # Rewards
 
 Intructions to run the code:
+
 Clone the workspace and run following commands
 mvn clean install
 java -jar target\rewards-0.0.1-SNAPSHOT.jar
