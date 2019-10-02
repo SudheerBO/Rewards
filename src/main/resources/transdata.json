@@ -1,0 +1,62 @@
+[
+{
+  "id": 1,
+  "userName": "Rob",
+  "amt": 30,
+  "transDate": "2019-07-17"
+},
+{
+  "id": 2,
+  "userName": "Mark",
+  "amt": 70,
+  "transDate": "2019-07-17"
+},
+{
+  "id": 3,
+  "userName": "Rob",
+  "amt": 150,
+  "transDate": "2019-08-17"
+},
+{
+  "id": 4,
+  "userName": "Mark",
+  "amt": 170,
+  "transDate": "2019-08-17"
+},
+{
+  "id": 5,
+  "userName": "Rob",
+  "amt": 250,
+  "transDate": "2019-08-27"
+},
+{
+  "id": 6,
+  "userName": "Mark",
+  "amt": 400,
+  "transDate": "2019-08-27"
+},
+{
+  "id": 7,
+  "userName": "Rob",
+  "amt": 800,
+  "transDate": "2019-09-17"
+},
+{
+  "id": 8,
+  "userName": "Mark",
+  "amt": 300,
+  "transDate": "2019-09-17"
+},
+{
+  "id": 9,
+  "userName": "Rob",
+  "amt": 1000,
+  "transDate": "2019-09-27"
+},
+{
+  "id": 10,
+  "userName": "Mark",
+  "amt": 1500,
+  "transDate": "2019-09-27"
+}
+]
